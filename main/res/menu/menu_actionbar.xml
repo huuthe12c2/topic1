@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/luu"
+        android:title="Lưu"
+        android:icon="@drawable/ic_save_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item android:id="@+id/doc"
+        android:title="Lưu"
+        android:icon="@drawable/ic_settings_system_daydream_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item android:id="@+id/thoat"
+        android:title="Thoát"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextSoPhieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tenphieu" />
+    <EditText
+        android:id="@+id/editTextNgayXuatPhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ngay"
+        android:inputType="date"/>
+    <EditText
+        android:id="@+id/editTextGioXuatPhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/xuatphat" />
+
+    <Spinner
+
+        android:id="@+id/spinnerTuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <Spinner
+
+        android:id="@+id/spinnerXe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonThem"
+            android:text="@string/them"
+            android:drawableLeft="@drawable/ic_add_black_24dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonXoa"
+            android:text="@string/xoa"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSua"
+            android:text="@string/sua"
+            android:drawableLeft="@drawable/ic_update_black_24dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonClear"
+            android:text="@string/clear"
+            android:drawableLeft="@drawable/ic_clear_black_24dp"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDSSV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#2B2A27"
+        android:dividerHeight="10dp" />
+
+</LinearLayout>

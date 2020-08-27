@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quản Lý Xe Vận Tải</string>
+    <string name="tenphieu">Nhập Số Phiếu</string>
+    <string name="ngay">Ngày Xuất Phát</string>
+    <string name="xuatphat">Giờ Xuất Phát</string>
+
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+</resources>
